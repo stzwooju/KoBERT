@@ -71,23 +71,22 @@ predefined_args = {
 
 #### Requirements
 
-* see [requirements.txt](https://github.com/SKTBrain/KoBERT/blob/master/requirements.txt)
+* Python >= 3.6
+* PyTorch >= 1.7.0
+* MXNet >= 1.4.0
+* gluonnlp >= 0.6.0
+* sentencepiece >= 0.1.6
+* onnxruntime >= 0.3.0
+* transformers >= 3.5.0
 
 #### How to install
 
-* Install KoBERT as a python package
-
-  ```sh
-  pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
-  ```
-
-* If you want to modify source codes, please clone this repository
-
-  ```sh
-  git clone https://github.com/SKTBrain/KoBERT.git
-  cd KoBERT
-  pip install -r requirements.txt
-  ```
+```sh
+git clone https://github.com/SKTBrain/KoBERT.git
+cd KoBERT
+pip install -r requirements.txt
+pip install .
+```
 
 ---
 
